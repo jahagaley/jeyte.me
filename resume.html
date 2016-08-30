@@ -4,7 +4,7 @@
 <head> 
    <style>
     
-    li{
+    li.need{
         
      font-size: 18px;   
         
@@ -30,19 +30,34 @@
 
 <body>
 <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-       <a style="font-size: 30px;" class="navbar-brand" href="index.html">Jeyte Hagaley</a></div>
-    <ul class="nav navbar-nav">
-      <li ><a href="index.html">Home</a></li>
-      <li><a href="aboutme.html">About me</a></li>
-      <li class="active"><a href="resume.html">Resume</a></li> 
-       
-    </ul>
-  </div>
-</nav>
-     <header class="jumbotron" style=" background-image: url(code.jpg);  background-size: cover; height: 600px;">
-        <div class="container">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html" style="color: black; font-size: 35px;">Jeyte Hagaley</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          
+          <ul class="nav navbar-nav navbar-right">
+            <li><a  style="color: black;" href="index.html">Home</a></li>
+            <li><a style="color: black; " href="aboutme.html">About</a></li>
+            <li class="active"><a style="color: black;" href="resume.html">Resume<span class="sr-only">(current)</span></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+     <header class="jumbotron" style="  background: url(code.jpg) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover; 
+                background-size: 100% 100%;
+">
+           <div class="container">
             <div class="row">
             
             
@@ -56,11 +71,12 @@
         </header>
 
     
+    
     <div class="container">
         <h1 style="font-size: 50px" align=center> Education:</h1>
     <div class="row">
       <div class=" col-md-6">
-         <img src="SeattleU.jpg" height=300/>
+         <img src="SeattleU.jpg" style="width:100%;"/>
          
           
       </div>
@@ -81,8 +97,14 @@
 
 
     </div>
-    <div class="container">
+    <div class="container" style="padding-bottom:30px; padding-top:30px;">
+     <hr>
       <div class="row">
+      <div class=" col-md-6">
+         <img src="seattlecentral.jpg" style="width:100%;"/>
+         
+          
+      </div>
       
        <div class=" col-md-6">
           <h3>Associates of Science, Seattle Central College  </h3>
@@ -94,12 +116,9 @@
           <h4 style="padding-left: 30px"></h4>
           
       </div>
-<div class=" col-md-6">
-         <img src="seattlecentral.jpg" height=250/>
-         
-          
-      </div>
+    
         </div>
+        <hr>
     </div> 
       
       
@@ -108,7 +127,7 @@
       <div class="container"> 
         <div class="row">
       <div class=" col-md-6">
-         <img src="rainierbeach.jpg" height=300/>
+         <img src="rainierbeach.jpg" style="width:100%;"/>
          
           
       </div>
@@ -132,7 +151,7 @@
         
         
           
-    <div class="container">
+   <div class="container">
        <h1 style="font-size: 50px; padding-top: 30px;" align=center> Skills:</h1>
         <div class="row">
             
@@ -140,11 +159,11 @@
               <h1 align=center> Technical skills: </h1>
               
               <ul>
-                  <li> Java, Python, C++, HTML/CSS, JavaScript </li>
-                  <li> Algorithms/ Data Structures  </li>
-                  <li> Time/Space Complexity </li>
-                  <li> Software testing  </li>
-                  <li> Bilingual (English + Somali) </li>
+                  <li class="need"> Java, Python, C++, HTML/CSS, JavaScript </li>
+                  <li class="need"> Algorithms/ Data Structures  </li>
+                  <li class="need"> Time/Space Complexity </li>
+                  <li class="need"> Software testing  </li>
+                  <li class="need"> Bilingual (English + Somali) </li>
                   
               </ul>
               
@@ -155,11 +174,11 @@
               <h1 align =center> Soft skills: </h1>
               
               <ul>
-                  <li> Strong work ethic  </li>
-                  <li> Quick learner</li>
-                  <li> Excellent communication skills</li>
-                  <li> Complex problem solving skills  </li>
-                <li>Excellent time management</li>
+                  <li class="need"> Strong work ethic  </li>
+                  <li class="need"> Quick learner</li>
+                  <li class="need"> Excellent communication skills</li>
+                  <li class="need"> Complex problem solving skills  </li>
+                <li class="need">Excellent time management</li>
                   
               </ul>
               
@@ -177,16 +196,16 @@
            <h1 style="font-size: 50px" align=center> Experience:</h1>
            <div class="row">
                <div class="col-md-3">
-                <p style="font-size: 25px;"> From: November/2014 </p>   
-                   <p style="font-size: 25px;"> To: June/2015 </p>
+                <p style="font-size: 20px;"> From: November/2014 </p>   
+                   <p style="font-size: 20px;"> To: June/2015 </p>
                </div>
                <div class="col-md-9">
                 <p style="font-size: 25px;">Sales Associate, JCPenney </p>   
                    <ul>
-                       <li>Assisted customers finding merchandise.
+                       <li class="need">Assisted customers finding merchandise.
                        </li>
-                       <li>Worked with a team of 3 to 4 people to increase sales and customer satisfaction. </li>
-                       <li>Responsible for helping opening and closing the store with a group of 2 to 3 people.     
+                       <li class="need">Worked with a team of 3 to 4 people to increase sales and customer satisfaction. </li>
+                       <li class="need">Responsible for helping opening and closing the store with a group of 2 to 3 people.     
                            
                        </li>
                        
@@ -200,7 +219,6 @@
            
        </div> 
     
-        
        
         <footer style="background-color: black;">
     <div class="container">
@@ -225,8 +243,4 @@
     
     </body>
 
-
-
-
-
-
+</html>
